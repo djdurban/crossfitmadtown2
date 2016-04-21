@@ -12,7 +12,11 @@ var users = require('./routes/users');
 
 var app = express();
 
+<<<<<<< HEAD
 //// view engine setup
+=======
+// view engine setup
+>>>>>>> d1a597701531668f6a14856cb7664d3cd1524b13
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 app.set('view options', { layout: 'layouts/default' });
