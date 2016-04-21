@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>{{title}}</title>
+
+    {{> styles}}
+  </head>
+  <body>
+    {{> header}}
+
+    {{{body}}}
+
+    {{> scripts}}
+
+    {{#if PROD_MODE}}
+    {{{block 'googleAnalyticsScripts'}}}
+    {{/if}}
+
+  </body>
+</html>
