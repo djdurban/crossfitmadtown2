@@ -16,7 +16,7 @@ var app = express();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
-app.set('view options', { layout: 'layouts/default' });
+app.set('view options', { layout: 'layouts/main' });
 hbs.registerPartials(path.join(__dirname, 'views/partials'));
 
 hbs.registerHelper('extend', function(name, context) {
