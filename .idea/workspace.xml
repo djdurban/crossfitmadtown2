@@ -1,44 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0abb91-d265-47d8-ba78-8aad432340f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/lodash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/moment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/carousel.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/menu.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/normalize.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/size_large.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/size_medium.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/size_small.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/size_xs_small.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/sidenav.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/topnav.hbs" />
+    <list default="true" id="4f0abb91-d265-47d8-ba78-8aad432340f0" name="Default" comment="Front page is working!">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/81B9B5B43305E479.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/81B9B5B43305E47A.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/abby_rings.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/about_image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/crossfit_front.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/crossfit_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/getting_started.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/handstand.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/2013-12-02-19.34.04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/2013-12-02-19.36.01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/2013-12-02-19.36.29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/2015-01-25-12.23.56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/abby_back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/carli_rings2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/group2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/gym.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/hs_back_lunge.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/hs_curl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/hs_ladder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/hs_pushups.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/hurdles.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/jumprope.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/lifting2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/microhurdles.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/rowing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/slider4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/wod.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/header/yat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_kettlebell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_oly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/kettlebell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/oly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/timer_png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/madison_asp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/menu/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/photos library.photoslibrary.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/running.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/usa_lifting.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/weightlifting_front.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/whole_life_challenge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/youth_front.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/default.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_kettlebell.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_oly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/circle_timer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/kettlebell.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/oly.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/timer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo-dark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo-head.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/schedule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/gcal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/vendor/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/owl.carousel.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.layout.less" afterPath="$PROJECT_DIR$/public/stylesheets/main.layout.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.less" afterPath="$PROJECT_DIR$/public/stylesheets/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/main.hbs" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/footer.hbs" afterPath="$PROJECT_DIR$/views/partials/footer.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/header.hbs" afterPath="$PROJECT_DIR$/views/partials/header.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/scripts.hbs" afterPath="$PROJECT_DIR$/views/partials/scripts.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/styles.hbs" afterPath="$PROJECT_DIR$/views/partials/styles.hbs" />
     </list>
     <ignored path="cba2f4203ceee7d542465b4a4b1c7c7b.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,22 +102,6 @@
             <state relative-caret-position="405">
               <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/header.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#section#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#section#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,12 +156,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
               <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/schedule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -483,7 +506,7 @@
       <workItem from="1461248374329" duration="4535000" />
       <workItem from="1461264377229" duration="362000" />
       <workItem from="1461264750455" duration="3064000" />
-      <workItem from="1461285614981" duration="6517000" />
+      <workItem from="1461285614981" duration="6644000" />
     </task>
     <task id="LOCAL-00001" summary="Just some tidying up!">
       <created>1461269492835</created>
@@ -499,11 +522,18 @@
       <option name="project" value="LOCAL" />
       <updated>1461269528423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Front page is working!">
+      <created>1461293473605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1461293473605</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14478000" />
+    <option name="totallyTimeSpent" value="14605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1398" height="877" extended-state="6" />
@@ -543,21 +573,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Just some tidying up!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just some tidying up!" />
+    <MESSAGE value="Front page is working!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front page is working!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/styles.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2458,6 +2481,16 @@
         <state relative-caret-position="409">
           <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/schedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
