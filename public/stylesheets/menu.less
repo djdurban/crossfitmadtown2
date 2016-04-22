@@ -1,0 +1,118 @@
+
+/*
+* Uses Font Awesome and Bootstrap 3
+* Both aren't required for this demo
+*/
+#site-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+}
+#site-canvas,
+#site-menu {
+  width: 100%;
+  position: relative;
+
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+
+
+}
+
+#site-menu {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  background: @x-neutral-light;
+  z-index:100;
+}
+
+.show-nav {
+  #site-canvas,
+  #site-menu{
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+
+    -webkit-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0);
+  }
+}
+
+
+#menu-btn {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: .5em;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: @white;
+
+  &:active {
+    box-shadow: none;
+  }
+}
+
+#menu-close {
+  display: block;
+  float: right;
+  margin-top: .4em;
+  padding: .5rem 1rem;
+  color: @neutral-dark;
+  font-size: 1.75em;
+  margin-bottom: 1rem;
+
+  &:hover, &:focus, &:active {
+    color: darken(@neutral-dark, 50%);
+  }
+}
+
+.menu-links {
+  clear: both;
+
+  .page-link {
+    display: block;
+  }
+}
+
+//Navigation
+.page-link, .collapse-style a {
+  font-size: 16px;
+  color: @neutral-dark;
+  padding: 1rem;
+
+  &:hover, &:focus, &:active{
+    text-decoration: none;
+    background-color: darken(@x-neutral-light, 4%);
+    color: @neutral-dark;
+  }
+  span {
+    font-size: 12px;
+    padding-top: .6rem;
+  }
+}
+
+.collapse-style {
+
+  a {
+    padding: 1rem 2rem;
+    display: block;
+    &:hover, &:focus, &:active{
+      background-color: darken(@x-neutral-light, 4%);
+    }
+
+  }
+}
