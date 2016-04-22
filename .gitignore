@@ -39,6 +39,9 @@ node_modules
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
+# Webstorm
+.idea
+
 # Debug log from npm
 npm-debug.log
 >>>>>>> d1a597701531668f6a14856cb7664d3cd1524b13

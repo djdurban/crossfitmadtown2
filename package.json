@@ -13,7 +13,7 @@
     "express": "~4.13.1",
     "font-awesome": "^4.6.1",
     "fullcalendar": "^2.7.0-beta",
-    "hbs": "~3.1.0",
+    "hbs": "^3.1.1",
     "less": "^2.6.1",
     "less-middleware": "1.0.x",
     "lodash": "^4.11.1",
