@@ -8,15 +8,12 @@
     <div id="site-wrapper">
     {{> header}}
 
-    {{{body}}}
+        <div id="site-canvas">
+            {{{body}}}
 
+            {{> footer}}
+        </div>
     {{> scripts}}
-
-    {{#if PROD_MODE}}
-    {{{block 'googleAnalyticsScripts'}}}
-    {{/if}}
-
-    {{> footer}}
     </div>
   </body>
 </html>

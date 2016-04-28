@@ -6,17 +6,19 @@
 </head>
 <body class="sub-main-layout">
 {{> header}}
-    <div class="sub-main-body">
-        <section id="post">
-            <div class="post-header">
-                <h1>{{subTitle}}</h1>
-            </div>
-            <div class="post-content">
-                {{{body}}}
-            </div>
-        </section>
+    <div id="site-canvas">
+        <div class="sub-main-body">
+            <section id="post">
+                <div class="post-header">
+                    <h1>{{subTitle}}</h1>
+                </div>
+                <div class="post-content">
+                    {{{body}}}
+                </div>
+            </section>
+        </div>
+        {{> footer}}
     </div>
-{{> footer}}
 {{> scripts}}
 </body>
 </html>
