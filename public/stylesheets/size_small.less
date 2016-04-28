@@ -1,7 +1,8 @@
 @media screen and (min-width: 768px) {
 
   #header {
-    height:300px;
+    height:@smHeaderHeight;
+    margin-top:40px;
   }
 
   #site-top-menu {
@@ -109,16 +110,16 @@
   #slider3,
   #slider4,
   #slider5 {
-    min-height: 30rem;
+    min-height: @smHeaderHeight;
   }
   #home-logo {
     width: 35%;
     max-width: 120px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   .mask {
-    min-height: 30rem;
+    height: @smHeaderHeight;
 
 
     #siteTitle {
@@ -129,11 +130,10 @@
     }
   }
   .vegas-container {
-    min-height: 30rem;
+    min-height: @smHeaderHeight;
   }
   .light-border {
-    border-right: 1px solid @neutral-light;
-    min-height: 388px;
+    border-right: 1px solid @neutral-medium;
   }
   .feature-wrapper {
     border-bottom: 0;
@@ -145,6 +145,7 @@
   }
   .feature-content {
     max-width: 400px;
+    min-height: 250px;
     margin: 0 auto;
     p {
       min-height: 168px;
