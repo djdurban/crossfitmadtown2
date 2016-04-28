@@ -78,7 +78,15 @@ app.use(lessCompiler(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+
+app.use(function(req, res, next) {
+  if (req.path.substr(-1) == '/' && req.path.length > 1) {
+    var query = req.url.slice(req.path.length);
+    res.redirect(301, req.path.slice(0, -1) + query);
+  } else {
+    next();
+  }
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
