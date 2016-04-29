@@ -1,6 +1,11 @@
 @media screen and (min-width: 1023px) {
   #header {
     height:@lgHeaderHeight;
+    margin-top:40px;
+    max-width:1023px;
+    margin-left:auto;
+    margin-right:auto;
+
   }
   body {
     background-color: #111;
@@ -11,24 +16,25 @@
       bottom:0;
       left:0;
       right:0;
-      opacity:.3;
       background: url('/images/gymfloor.jpg');
       background-size:200px 200px;
 
-      &:after {
+    }
 
-      }
+    .layout-section {
+      margin-top:20px;
+      border: solid 3px #000;
+    }
+
+    .layout-section-white {
+      background-color:white;
     }
   }
   #site-canvas {
     max-width:1023px;
-    margin-top:40px;
-    margint-bottom:40px;
+    margin-bottom:40px;
     margin-left:auto;
     margin-right:auto;
-    background-color: #fff;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
   }
 
   #slider1,
@@ -46,7 +52,9 @@
   }
   .mask {
     height:@lgHeaderHeight;
-    border-bottom:solid 1px #999;
+    border-top:solid 3px #000;
+    border-bottom:solid 3px #000;
+    text-shadow: 1px 1px 3px #000;
 
     #siteTitle {
       span {

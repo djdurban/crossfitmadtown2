@@ -41,8 +41,12 @@ hbs.registerHelper('block', function(name) {
 hbs.registerHelper('freeblog', function(context) {
   var output = context.fn(this);
 
+  //make section
+  output = output.replace(/#section#/g, '<section class="layout-section layout-section-white">');
+  output = output.replace(/#\/section#/g, '</section>');
+
   //make 5 hash tags h5
-  output = output.replace(/####(.*)?/g, '<h5>$1</h5>');
+  output = output.replace(/#####(.*)?/g, '<h5>$1</h5>');
 
   //make 4 hash tags h4
   output = output.replace(/####(.*)?/g, '<h4>$1</h4>');
