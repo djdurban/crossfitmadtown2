@@ -9,6 +9,7 @@ var jade = require('jade');
 var lessCompiler = require('less-middleware');
 var cons = require('consolidate');
 var rho = require('rho');
+var fs = require('fs');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -39,34 +40,19 @@ hbs.registerHelper('block', function(name) {
   return val;
 });
 
-hbs.registerHelper('markdown', function(context) {
-  var output = context.fn(this);
-
+hbs.registerHelper('markdown', function(fileName) {
+  fileName += ".md";
+  var contents = fs.readFileSync('views/markdown/'+fileName).toString();
+  var template = hbs.compile(contents);
+  var output = template(this);
   var html = rho.toHtml(output);
 
   //make section
   html = html.replace(/#section#/g, '<section class="layout-section layout-section-white">');
   html = html.replace(/#\/section#/g, '</section>');
-  //
-  // //make 5 hash tags h5
-  // output = output.replace(/#####(.*)?/g, '<h5>$1</h5>');
-  //
-  // //make 4 hash tags h4
-  // output = output.replace(/####(.*)?/g, '<h4>$1</h4>');
-  //
-  // //make 3 hash tags h3
-  // output = output.replace(/###(.*)?/g, '<h3>$1</h3>');
-  //
-  // //make stars bold
-  // output = output.replace(/\*\*(.*)?\*\*/g, '<strong>$1</strong>');
-  //
-  // //make 4 dashes hr
-  // output = output.replace(/----/g, '<hr />');
-  //
-  // //make line breaks html breaks
-  // //output = output.replace(/^(\r\n?|\n){1}(.*)?/g, '$1');
-  // //output = output.replace(/(\r\n?|\n)(.+)?(\r\n?|\n)/g, '<p>$1</p>');
-  // output = output.replace(/(.+)?(\r\n?|\n)/g, '<p>$1</p>');
+
+
+
 
 
   return html;

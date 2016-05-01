@@ -13,6 +13,9 @@
 @import "/stylesheets/page.layout.less";
 @import "/stylesheets/sub.main.layout.less";
 
+@import "/stylesheets/menu.less";
+@import "/stylesheets/top.menu.less";
+@import "/stylesheets/carousel.less";
 
 @import "/stylesheets/size_xs_small.less";
 @import "/stylesheets/size_small.less";
@@ -20,8 +23,7 @@
 @import "/stylesheets/size_large.less";
 
 
-@import "/stylesheets/menu.less";
-@import "/stylesheets/carousel.less";
+
 
 body {
   width:100%;
@@ -33,6 +35,10 @@ footer {
 
 .resources {
   display:none;
+}
+
+#site-canvas {
+  z-index:1;
 }
 
 #post,#main {

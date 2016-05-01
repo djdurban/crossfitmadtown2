@@ -34,6 +34,23 @@ var api = {
             });
       },
 
+      olympiclifting: function (req, res, next) {
+            res.render('olympiclifting', {
+                  title: 'CrossFit Madtown - Olympic Weightlifting',
+                  subTitle: 'Olympic Weightlifting',
+                  layout: "layouts/sub.main.hbs",
+                  sliderImg1: "/images/header/carli_rings2.jpg",
+                  sliderImg2: "/images/header/wod.jpg",
+                  sliderImg3: "/images/header/slider1.jpg",
+                  sliderImg4: "/images/header/slider2.jpg",
+                  sliderImg5: "/images/header/slider4.jpg",
+                  img1: "/images/abby_rings.jpg",
+                  img2: "/images/handstand.jpg",
+                  img3: "/images/running.jpg",
+                  headerImage: "/images/about_image.jpg"
+            });
+      },
+
       summercamp2016: function (req, res, next) {
             res.render('summercamp-2016', {
                   title: 'CrossFit Madtown - Summer Camp 2016',
@@ -74,6 +91,9 @@ router.get('/', api.index);
 
 //Get CrossFit page
 router.get('/crossfit', api.crossfit);
+
+//Get Olympic Weightlifting page
+router.get('/olympic-lifting', api.olympiclifting);
 
 //Get CrossFit page
 router.get('/summercamp-2016', api.summercamp2016);
