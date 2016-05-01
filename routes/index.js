@@ -8,7 +8,8 @@ var api = {
                   crossfitFront: "/images/crossfit_front.jpg",
                   weightliftingFront: "/images/weightlifting_front.jpg",
                   youthFront: "/images/youth_front.jpg",
-                  backgroundImage: "/images/header/slider4.jpg"
+                  backgroundImage: "/images/header/slider4.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -20,7 +21,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -32,7 +34,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -44,7 +47,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -56,7 +60,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -68,7 +73,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -80,7 +86,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -92,7 +99,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -104,7 +112,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
@@ -116,7 +125,8 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg"
+                  headerImage: "/images/about_image.jpg",
+                  PROD_MODE: process.env.PROD_MODE
             });
       }
 };
