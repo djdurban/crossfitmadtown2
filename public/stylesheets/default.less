@@ -1,0 +1,291 @@
+
+
+body {
+  font-family: 'Titillium Web', Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background-color: #111;
+
+  .background-overlay {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background: @backgroundImg;
+  }
+
+  .layout-section {
+    margin-top:20px;
+    border: solid 3px #000;
+
+
+
+    .testimonial {
+      padding-top:2em;
+      &:first-child{
+        margin-top: 2rem;
+      }
+
+      h4 {
+        font-weight: bold;
+      }
+    }
+
+  }
+
+  .layout-section-white {
+    background-color:white;
+  }
+
+  .layout-section-padded {
+    padding:30px;
+  }
+
+  .layout-section-green {
+    background-color:@green;
+    color: white;
+  }
+}
+
+.transparent {
+  opacity:0;
+}
+
+#site-canvas {
+  margin-bottom:40px;
+  margin-left:auto;
+  margin-right:auto;
+  opacity:.95;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p, li{
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+//Buttons
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-more {
+  background-color: @neutral-dark;
+  color: @white;
+  text-transform: uppercase;
+  min-width: 30%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em;
+
+  &:nth-child(2){
+    margin-top: 4em;
+  }
+
+  &:hover, &:focus, &:active {
+    color: @white;
+    background-color: darken(@neutral-dark, 10%);
+  }
+}
+
+
+
+//Homepage
+
+#carousel, .owl-item {
+  min-height: @xsHeaderHeight;
+}
+#slider1, #slider2, #slider3, #slider4, #slider5 {
+  min-height: @xsHeaderHeight;
+}
+
+.jumbotron-annoucement {
+  background-color:#fff;
+  border-bottom:solid 1px #ddd;
+}
+
+#home-logo {
+  width: 20%;
+  max-width: 7em;
+  margin: 0 auto;
+  padding-top: 1rem;
+
+
+  img {
+    width: 100%;
+  }
+}
+
+.background-stripes {
+  height:@xsHeaderHeight;
+}
+
+.mask {
+  height: @xsHeaderHeight;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  background: transparent;
+  text-shadow: 1px 1px 3px #000;
+  border-left:solid 3px #000;
+  border-right:solid 3px #000;
+
+  #siteTitle {
+    color: @white;
+    padding: 1rem 0 0 0;
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: @text-shadow;
+
+    span {
+      display: inline-block;
+
+      &:first-child {
+        font-weight: 300;
+      }
+
+      &:last-child {
+        font-weight: 600;
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    color: @white;
+    position: relative;
+    font-size: 1.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    margin: 1rem auto 0 auto;
+    font-weight: 300;
+    line-height: 1.6;
+
+    span {
+      display: inline-block;
+
+      &:first-child {
+        font-weight: 600;
+      }
+
+      &:last-child {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.feature-wrapper {
+  border-bottom: 1px solid @neutral-light;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+
+  .img-wrapper {
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 1rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .feature-img {
+    width: 100%;
+  }
+
+  .oly {
+    width: 176px;
+    margin-bottom: 1.1rem;
+  }
+
+  &.last {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+.bg-image-wrapper {
+  background-size: cover;
+  background-attachment: fixed;
+
+
+
+}
+
+.coaches {
+  margin-right:50px;
+  margin-left:50px;
+  display:none;
+}
+
+.resources {
+  text-align: center;
+  padding: 2rem 0;
+
+  h3 {
+    text-align: center;
+  }
+
+  .resource-img {
+    max-height: 150px;
+    margin: 2rem 0;
+    max-width: 200px;
+  }
+
+}
+
+.bg-dark {
+  background-color: @red;
+  padding: 2em;
+  color: @white;
+}
+
+#post {
+  h3 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+}
+
+.modal-wrapper {
+  display: none;
+}
+
+.modal-open {
+  display: block;
+  position: fixed;
+  background-color: rgba(0,0,0,.5);
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.modal-body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #000;
+  margin-top: 4em;
+
+  img {
+    width: 100%;
+  }
+}
+

@@ -53,29 +53,13 @@ $('#thumbnails ul li a').click(function(e){
 
 var interval = undefined;
 $(document).ready(function () {
-    interval = setInterval(getNext, 2000); // milliseconds
-    $('#next').on('click', getNext);
-    $('#prev').on('click', getPrev);
-
-    _.delay(function () {
-        $(".owl-carousel").owlCarousel({
-            loop:true,
-            autoWidth:false,
-            items:1,
-            autoplay:true,
-            autoplayTimeout:5000,
-            autoplayHoverPause:true,
-            animateOut: 'fadeOut'
-        });
-        $(".owl-carousel").trigger('play.owl.autoplay');
-
-    },500);
-
     var current = moment();
     var start = moment("4/23/2016 8:30 am");
     var end = moment("4/24/2016 6:00 pm");
     var btnLiveStream = $('#btnLiveStream');
     var lblLiveStream = $('#lblLiveStream');
+
+    window.carousel('.carousel');
 
     btnLiveStream.on('click', function (ev) {
         if (current < start) {
@@ -91,27 +75,5 @@ $(document).ready(function () {
     }
 });
 
-function getNext() {
-    var $curr = $('.slideshow img:visible'),
-        $next = ($curr.next().length) ? $curr.next() : $('.slideshow img').first();
-
-    transition($curr, $next);
-}
-
-function getPrev() {
-    var $curr = $('.slideshow img:visible'),
-        $next = ($curr.prev().length) ? $curr.prev() : $('.slideshow img').last();
-    transition($curr, $next);
-}
-
-function transition($curr, $next) {
-    clearInterval(interval);
-
-    $next.css('z-index', 2).fadeIn('slow', function () {
-        $curr.hide().css('z-index', 0);
-        $next.css('z-index', 1);
-    });
-
-}
 
 

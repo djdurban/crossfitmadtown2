@@ -1,0 +1,75 @@
+footer {
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: @neutral-dark;
+  color: @white;
+  margin-top: 6rem;
+
+  input {
+    &:first-child {
+      margin-top: 2rem;
+    }
+  }
+
+  input, textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid @white;
+    padding: .75rem;
+    color: @white;
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    min-height: 150px;
+  }
+
+  button.btn.btn-default {
+    width: 100%;
+    border: 2px solid @white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: @white;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    &:hover {
+      background-color: @white;
+      color: @neutral-dark;
+    }
+  }
+
+  img {
+    width: 24px;
+    margin-right: .5em;
+
+  }
+
+  .contact-wrapper {
+    h3 {
+      color: @white;
+      margin-bottom: 2rem;
+    }
+    p {
+      display: inline-block;
+
+
+    }
+  }
+
+  .map-wrapper {
+    p {
+      margin-bottom: .25em;
+    }
+  }
+
+  #map {
+    cursor: pointer;
+    iframe {
+      pointer-events: none;
+      width: 100%;
+      min-height: 450px;
+      margin-top: 1em;
+    }
+  }
+}
