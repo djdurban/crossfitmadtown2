@@ -3,7 +3,7 @@
 
 Our Athletic Performance Training for youth is geared towards children Ages 8-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
 
-<img src="/images/youth_front.jpg" />
+<img src="/images/youth_front.jpg" style="width:80%;margin-left:auto;margin-right:auto;/>
 
 
 
