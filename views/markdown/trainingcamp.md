@@ -1,6 +1,23 @@
 ~~~ {.layout-section.layout-section-white}
 # {{subTitle}}
 
+Our Athletic Performance Training for youth is geared towards children Ages 8-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
+
+<img src="/images/youth_front.jpg" />
+
+
+
+
+~~~
+~~~ {.layout-section.layout-section-white}
+
+
+## Summer Camp 2016
+
+*Signups have already begun, sign up before its too late!*
+
+<a href="/summercamp-2016" class="btn btn-primary">Summer Camp Schedule & Costs</a>
+
 ### Youth Camps
 
 *Youth Development (Ages 8-12)*

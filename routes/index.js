@@ -91,10 +91,10 @@ var api = {
             });
       },
 
-      trainingcamp: function (req, res, next) {
-            res.render('trainingcamp', {
-                  title: 'CrossFit Madtown - Summer Camp 2016',
-                  subTitle: 'Summer Camp 2016',
+      athleticperformance: function (req, res, next) {
+            res.render('athleticperformance', {
+                  title: 'CrossFit Madtown - Athletic Performance Training',
+                  subTitle: 'Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
@@ -153,7 +153,7 @@ router.get('/sport-specific-athletic-performance-training', api.trainingsport);
 router.get('/summercamp-2016', api.summercamp2016);
 
 //Get CrossFit page
-router.get('/training-camps', api.trainingcamp);
+router.get('/athletic-performance', api.athleticperformance);
 
 //Get Hot Mammas page
 router.get('/hot-mammas', api.hotmammas);
