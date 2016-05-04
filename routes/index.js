@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var madtownBlog = require('../queries/madtown_blog.js');
+var madtownBlog = require('../Queries/madtown_blog.js');
 
 var api = {
       index: function (req, res, next) {
