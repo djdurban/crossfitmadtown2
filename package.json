@@ -26,6 +26,7 @@
     "lodash": "^4.11.1",
     "moment": "^2.13.0",
     "morgan": "~1.6.1",
+    "newrelic": "^1.27.1",55b935979614d9889c678f4acbfe149b5eac6799
     "rho": "^0.2.4",
     "serve-favicon": "~2.3.0"
   },
