@@ -1,6 +1,4 @@
 //configure access: http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html
-process.env.db_AccessKeyID = "yeah right";
-process.env.db_SecretAccessKey = "in your dreams";
 
 var db = require('aws-sdk');
 var moment = require('moment');
