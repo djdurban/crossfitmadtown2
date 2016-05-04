@@ -9,7 +9,7 @@ db.config.update({
     region: "us-east-1"
 });
 
-var docClient = new db.DynamoDB.DocumentClient()
+var docClient = new db.DynamoDB.DocumentClient();
 
 var options = {
     TableName: "Madtown_Blog",
