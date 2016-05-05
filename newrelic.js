@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['CrossFit Madtown'],
+  app_name: [''],
   /**
    * Your New Relic license key.
    */
-  license_key: 'd128d1a8ee6e8704b395783c9b758c4d9b3564f6',
+  license_key: '',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
