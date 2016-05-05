@@ -49,12 +49,17 @@ hbs.registerHelper('markdown', function(fileName) {
   html = html.replace(/#section#/g, '<section class="layout-section layout-section-white">');
   html = html.replace(/#\/section#/g, '</section>');
 
-
-
-
-
   return html;
 });
+
+// var ghost = require('ghost');
+// var parentApp = app;
+//
+// ghost().then(function (ghostServer) {
+//   parentApp.use("/blog", ghostServer.rootApp);
+//
+//   ghostServer.start(parentApp);
+// });
 
 
 // uncomment after placing your favicon in /public
