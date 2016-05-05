@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var madtownBlog = require('../Queries/madtown_blog.js');
 
 var api = {
       index: function (req, res, next) {
@@ -31,10 +32,6 @@ var api = {
                   title: 'CrossFit Madtown - Olympic Weightlifting',
                   subTitle: 'Olympic Weightlifting',
                   layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -44,10 +41,6 @@ var api = {
                   title: 'CrossFit Madtown - Summer Camp 2016',
                   subTitle: 'Summer Camp 2016',
                   layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -57,10 +50,6 @@ var api = {
                   title: 'CrossFit Madtown - Youth Athletic Performance Training',
                   subTitle: 'Youth Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -96,10 +85,6 @@ var api = {
                   title: 'CrossFit Madtown - Athletic Performance Training',
                   subTitle: 'Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -108,11 +93,6 @@ var api = {
             res.render('hotmammas', {
                   title: 'CrossFit Madtown - Hot Mammas',
                   subTitle: 'Hot Mammas',
-                  layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -122,13 +102,37 @@ var api = {
                   title: 'CrossFit Madtown - Coaches',
                   subTitle: 'Coaches',
                   layout: "layouts/sub.main.hbs",
-                  img1: "/images/abby_rings.jpg",
-                  img2: "/images/handstand.jpg",
-                  img3: "/images/running.jpg",
-                  headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
-      }
+      },
+
+      wod: function (req, res, next) {
+            var title = "";
+            var type = "workout_" + req.params.subtype.toLowerCase();
+            var date = req.params.date;
+
+
+            switch(type) {
+                  case "workout_crossfit":
+                    title = "CrossFit Workout of the Day";
+                    break;
+                  case "workout_olympic":
+                    title = "Olympic Workout of the Day"
+                    break;
+            }
+
+            madtownBlog.getItem(type, date, function (err, response) {
+                  res.render('wod', {
+                        title: 'CrossFit Madtown - ' + title,
+                        subTitle: title,
+                        layout: "layouts/sub.main.hbs",
+                        PROD_MODE: process.env.PROD_MODE,
+                        Workouts: response && response.Items
+                  });
+
+            });
+      },
+
 };
 
 /* GET home page. */
@@ -160,5 +164,9 @@ router.get('/hot-mammas', api.hotmammas);
 
 //Get Coaches page
 router.get('/coaches', api.coaches);
+
+//Get WOD page
+router.get('/wod/:subtype/:date', api.wod);
+
 
 module.exports = router;

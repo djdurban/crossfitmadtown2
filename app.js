@@ -5,9 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var hbs = require('hbs');
-var jade = require('jade');
 var lessCompiler = require('less-middleware');
-var cons = require('consolidate');
 var rho = require('rho');
 var fs = require('fs');
 
@@ -58,8 +56,6 @@ hbs.registerHelper('markdown', function(fileName) {
   return html;
 });
 
-//cons.require.handlebars = hbs;
-//cons.require.jade = jade;
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
