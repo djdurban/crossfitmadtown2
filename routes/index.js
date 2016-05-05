@@ -93,6 +93,7 @@ var api = {
             res.render('hotmammas', {
                   title: 'CrossFit Madtown - Hot Mammas',
                   subTitle: 'Hot Mammas',
+                  layout: "layouts/sub.main.hbs",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
