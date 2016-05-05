@@ -12,7 +12,7 @@ db.config.update({
 var docClient = new db.DynamoDB.DocumentClient();
 
 var options = {
-    TableName: "Madtown_Blog",
+    TableName: process.env.PROD_MODE ? "Madtown_Blog" : "Madtown_Blog_Beta",
     KeyConditionExpression: "#tp = :type and #dt = :date",
     ExpressionAttributeNames:{
         "#tp": "Type",
