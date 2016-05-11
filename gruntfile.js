@@ -26,7 +26,15 @@ module.exports = function(grunt) {
             my_target: {
                 files: [{
                     expand: false,
-                    src: ['./public/javascripts/vendor/*.js','./public/javascripts//*.js'],
+                    src: [
+                        './public/javascripts/vendor/jquery.js',
+                        './public/javascripts/vendor/lodash.js',
+                        './public/javascripts/vendor/bootstrap.js',
+                        './public/javascripts/vendor/modernizr.custom.js',
+                        './public/javascripts/vendor/moment.js',
+                        './public/javascripts/vendor/classie.js',
+                        './public/javascripts//*.js'
+                    ],
                     dest: './public/prod/scripts.js'
                 }]
             }
@@ -35,7 +43,6 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    //grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', ['less','uglify']);
 
