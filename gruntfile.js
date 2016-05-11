@@ -4,7 +4,8 @@ module.exports = function(grunt) {
         less: {
             development: {
                 options: {
-                    paths: ['./public/prod']
+                    paths: ['./public/prod'],
+                    compress:true
                 },
                 files: {
                     './public/prod/style.css': './public/stylesheets/style.less'
@@ -16,9 +17,10 @@ module.exports = function(grunt) {
                     plugins: [
 
                     ],
+                    compress:true
                 },
                 files: {
-                    './public/css/style.css': './public/stylesheets/style.less'
+                    './public/prod/style.css': './public/stylesheets/style.less'
                 }
             }
         },
