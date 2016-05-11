@@ -10,7 +10,7 @@ var api = {
                   weightliftingFront: "/images/weightlifting_front.jpg",
                   youthFront: "/images/youth_front.jpg",
                   backgroundImage: "/images/header/slider4.jpg",
-                  PROD_MODE: true //process.env.PROD_MODE
+                  PROD_MODE: process.env.PROD_MODE
             });
       },
 
