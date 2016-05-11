@@ -2,6 +2,9 @@
   "name": "cba2f4203ceee7d542465b4a4b1c7c7b",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "5.5.x"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "postinstall": "grunt"
@@ -17,6 +20,7 @@
     "fullcalendar": "^2.7.0-beta",
     "grunt": "^1.0.1",
     "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1",
     "hbs": "^3.1.1",
     "less": "^2.6.1",
     "less-middleware": "1.0.x",
@@ -29,6 +33,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-contrib-less": "^1.3.0"
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^1.0.1"
   }
 }

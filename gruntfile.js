@@ -4,15 +4,15 @@ module.exports = function(grunt) {
         less: {
             development: {
                 options: {
-                    paths: ['./public/stylesheets']
+                    paths: ['./public/prod']
                 },
                 files: {
-                    './public/css/style.css': './public/stylesheets/style.less'
+                    './public/prod/style.css': './public/stylesheets/style.less'
                 }
             },
             production: {
                 options: {
-                    paths: ['./public/css'],
+                    paths: ['./public/prod'],
                     plugins: [
 
                     ],
@@ -21,14 +21,22 @@ module.exports = function(grunt) {
                     './public/css/style.css': './public/stylesheets/style.less'
                 }
             }
+        },
+        uglify: {
+            my_target: {
+                files: [{
+                    expand: false,
+                    src: ['./public/javascripts/vendor/*.js','./public/javascripts//*.js'],
+                    dest: './public/prod/scripts.js'
+                }]
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-less');
-
-    //grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     //grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['less']);
+    grunt.registerTask('default', ['less','uglify']);
 
 };
