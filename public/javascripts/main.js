@@ -27,9 +27,9 @@ $(document).ready(function () {
 
     window.carousel('.carousel');
 
-    var timeout = 100;
+    var timeout = 10;
     _.each($('.transition-element'), function (el) {
-        timeout += 0;
+        timeout += 200;
         setTimeout(function () {
             $(el).addClass('transition-element-visible');
         },timeout);
