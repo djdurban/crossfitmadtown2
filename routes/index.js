@@ -10,6 +10,7 @@ var api = {
                   weightliftingFront: "/images/weightlifting_front.jpg",
                   youthFront: "/images/youth_front.jpg",
                   backgroundImage: "/images/header/slider4.jpg",
+                  testimonials: "testimonials.main",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -23,6 +24,7 @@ var api = {
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
                   headerImage: "/images/about_image.jpg",
+                  testimonials: "testimonials.crossfit",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -32,6 +34,7 @@ var api = {
                   title: 'CrossFit Madtown - Olympic Weightlifting',
                   subTitle: 'Olympic Weightlifting',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.olympiclifting",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -41,6 +44,7 @@ var api = {
                   title: 'CrossFit Madtown - Summer Camp 2016',
                   subTitle: 'Summer Camp 2016',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -50,6 +54,7 @@ var api = {
                   title: 'CrossFit Madtown - Youth Athletic Performance Training',
                   subTitle: 'Youth Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -63,6 +68,7 @@ var api = {
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
                   headerImage: "/images/about_image.jpg",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -75,6 +81,7 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
+                  testimonials: "testimonials.athleticperformance",
                   headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
@@ -85,6 +92,7 @@ var api = {
                   title: 'CrossFit Madtown - Athletic Performance Training',
                   subTitle: 'Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -103,6 +111,7 @@ var api = {
                   title: 'CrossFit Madtown - Coaches',
                   subTitle: 'Coaches',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.hotmammas",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
