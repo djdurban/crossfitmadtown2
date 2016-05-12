@@ -27,6 +27,15 @@ $(document).ready(function () {
 
     window.carousel('.carousel');
 
+    var timeout = 100;
+    _.each($('.transition-element'), function (el) {
+        timeout += 0;
+        setTimeout(function () {
+            $(el).addClass('transition-element-visible');
+        },timeout);
+    });
+
+
     btnLiveStream.on('click', function (ev) {
         if (current < start) {
             alert('Live Stream has not started yet, please check back Saturday after 8:30am');

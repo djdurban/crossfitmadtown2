@@ -5,13 +5,16 @@
     {{> styles}}
 </head>
 <body>
-{{> header}}
+<div id="site-wrapper" class="transition-element">
+    {{> header}}
 
-<div id="site-canvas">
-    {{{body}}}
+    <div id="site-canvas" class="transition-element">
+        {{{body}}}
 
-    {{> footer}}
+        {{> footer}}
+    </div>
 </div>
+
 
 {{> scripts}}
 

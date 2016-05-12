@@ -4,9 +4,10 @@
     {{>head}}
     {{> styles}}
 </head>
-<body class="sub-main-layout">
-{{> header}}
-    <div id="site-canvas">
+<body class="sub-main-layout ">
+<div id="site-wrapper"  class="transition-element">
+    {{> header}}
+    <div id="site-canvas"  class="transition-element">
         <div class="sub-main-body">
             <section id="post" class="">
                 <div class="post-content">
@@ -16,6 +17,7 @@
         </div>
         {{> footer}}
     </div>
+</div>
 {{> scripts}}
 </body>
 </html>
