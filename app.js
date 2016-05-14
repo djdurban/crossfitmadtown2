@@ -76,13 +76,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use(function (req, res, next) {
-  if (!process.env.PROD_MODE) {
-    if (req.url.indexOf("/images/") === 0 || req.url.indexOf("/stylesheets/") === 0) {
-      res.setHeader("Cache-Control", "public, max-age=2592000");
-      res.setHeader("Expires", new Date(Date.now() + 2592000000).toUTCString());
-    }
-  }
-
+      res.setHeader("Cache-Control", "public, max-age=1209600");
+      res.setHeader("Expires", new Date(Date.now() + 1209600000).toUTCString());
   next();
 });
 
