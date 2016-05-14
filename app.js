@@ -9,6 +9,7 @@ var lessCompiler = require('less-middleware');
 var rho = require('rho');
 var fs = require('fs');
 var request = require('request');
+var compression = require('compression');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -65,6 +66,7 @@ hbs.registerHelper('markdown', function(fileName) {
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(compression());
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -83,6 +85,7 @@ app.use(function (req, res, next) {
 
   next();
 });
+
 
 app.use('/', routes);
 
@@ -127,6 +130,8 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+
 
 //disable cookies
 request.defaults({"jar":false});
