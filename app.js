@@ -8,6 +8,7 @@ var hbs = require('hbs');
 var lessCompiler = require('less-middleware');
 var rho = require('rho');
 var fs = require('fs');
+var request = require('request');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -126,6 +127,9 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+//disable cookies
+request.defaults({"jar":false});
 
 
 module.exports = app;
