@@ -61,12 +61,12 @@ Speed is one of the most valuable traits that an athlete can obtain. This class 
 *Must be cleared by Skipp or Keysha.*
 
 
-*PAACT*
+*PACCT*
 
 Great conditioning class for all athletes. This fun class, is a mix of various training that never gets boring. Athletes are coached through various styles of jump training, multi directional speed, agilities, various core exercises and much more. Athletes will get in great shape
 
 
-*Advanced PAACT**
+*Advanced PACCT**
 
 Great conditioning class for all athletes. This fun class, is a mix of various training that never gets boring. Athletes are coached through various styles of jump training, multi directional speed, agilities, various core exercises and much more. Athletes will get in great shape
 
