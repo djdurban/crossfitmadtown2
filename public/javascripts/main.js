@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     var timeout = 10;
     _.each($('.transition-element'), function (el) {
-        timeout += 300;
+        timeout += 100;
         setTimeout(function () {
             $(el).addClass('transition-element-visible');
         },timeout);
