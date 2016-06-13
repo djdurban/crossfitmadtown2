@@ -116,6 +116,20 @@ var api = {
             });
       },
 
+      registration: function (req, res, next) {
+            res.render('registration', {
+                  title: 'CrossFit Madtown - Membership Registration',
+                  subTitle: 'Membership Registration',
+                  layout: "layouts/sub.main.hbs",
+                  img1: "/images/abby_rings.jpg",
+                  img2: "/images/handstand.jpg",
+                  img3: "/images/running.jpg",
+                  headerImage: "/images/about_image.jpg",
+                  testimonials: "testimonials.crossfit",
+                  PROD_MODE: process.env.PROD_MODE
+            });
+      },
+
       wod: function (req, res, next) {
             var title = "";
             var type = "workout_" + req.params.subtype.toLowerCase();
@@ -174,6 +188,9 @@ router.get('/hot-mammas', api.hotmammas);
 
 //Get Coaches page
 router.get('/coaches', api.coaches);
+
+//Get Registration page
+router.get('/register', api.registration);
 
 //Get WOD page
 router.get('/wod/:subtype/:date', api.wod);
