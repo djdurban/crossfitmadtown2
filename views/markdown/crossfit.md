@@ -23,26 +23,12 @@ No previous experience is necessary! Many of our regulars started at CrossFit Ma
 <img src="{{img3}}" alt="People Running"/>
 
 We recommend starting with our Introduction to Crossfit class. Most members spend 8-10 weeks in our Introduction to CrossFit class before they begin in the regular sessions. However, it is not required, and depending on your athletic abilities, you may able to start regular classes sooner. The first class is free, so contact us today to sign up!
-~~~
-~~~ {.layout-section.layout-section-green}
 
-# Classes and Costs
+# Classes
 
 ### CrossFit
 
 This class delivers a fitness style that is, by design, broad, general, and inclusive for any level of athlete. It is a strength and conditioning program built on constantly varied, if not randomized, functional movements executed at high intensity. This program combines elements of gymnastics, Olympic Weightlifting and resistance training with traditional and non-traditional tools, combined to create a great workout for any person looking to get fit. CrossFit training challenges the body in a variety of ways and is completely scalable and easily modified to suit any exerciser. This program is guaranteed to improve cardiovascular endurance, stamina, strength, flexibility, power, speed, coordination, accuracy, agility and balance.
-
-*CrossFit Training Cost*
-
-10-pack of Classes: $150
-
-2 Classes/Week: $90/month
-
-Unlimited adult classes (including CrossFit and Olympic Lifting): $150/month
-
-Couples Unlimited Rate: $250 ($125 each)
-
-Drop-In Rate: $20
 
 *Days/Times:*
 
@@ -63,18 +49,6 @@ Ages: 18+
 This fundamentals-focused class is a great way to break your way into CrossFit style training. It has all that the CrossFit class has to offer but designed for the beginner or for some who may have some special training circumstances. We recommend taking this class for at least a month or two before moving into the CrossFit classes to gain a base knowledge and comfort with the different movements used commonly in class. Note: First class is free! Contact us for more information.
 
 ****
-
-*Intro to CrossFit Training Cost*
-
-10-pack of Classes: $150
-
-2 Classes/Week: $90/month
-
-Unlimited adult classes (including Crossfit and Olympic Lifting): $150/month
-
-Couples Unlimited Rate: $275 ($137 each)
-
-Drop-In Cost: $20
 
 *Days/Times:*
 

@@ -94,7 +94,7 @@ July 18 - August 19th (5 wks)
 
 ~~~
 ~~~ {.layout-section.layout-section-green}
-### Packages and Cost
+# Packages and Cost
 
 #### *Bronze Package*
 

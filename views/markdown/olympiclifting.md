@@ -13,29 +13,18 @@ To join the MadTown Weight Lifting Club team, you must first sign up for a USA W
 
 <img src="/images/weightlifting_front.jpg" style="width:50%;margin-left:auto;margin-right:auto;margin-top:10px" title="Coach Alvarez" />
 
-~~~
-~~~ {.layout-section.layout-section-green}
+# Classes
 
-**Weightlifting Training Cost**
-
-10-pack of Classes: $150
-
-3 Classes/Week: $90/month
-
-Unlimited adult classes (including CrossFit and Olympic Lifting): $150/month
-
-**Gender:**
-
-Male/Female
-
-**Ages:**
-
-17+
-
-**Days/Times:**
+*Days/Times:*
 
 Mondays & Wednesdays: 7pm - 8pm
 
 Saturday: 10am - 12pm
+
+*Additional Details:*
+
+Gender: Male/Female
+
+Ages: 17+
 
 ~~~
