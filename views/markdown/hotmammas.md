@@ -10,9 +10,9 @@ This class is not just for moms, but for any woman looking to have a fun & get f
 
 Tuesday: 9am-10am - Strength & Power Training
 
-Wednesdays: 9am-10am - Speed, Agility, Quickness & Conditioning Training
+Thursdays: 9am-10am - Speed, Agility, Quickness & Conditioning Training
 
-Fridays: 9am-10am - Gutts, Butts & Thighs
+Fridays: 8am-9am - Gutts, Butts & Thighs
 
 *Additional Details:*
 
