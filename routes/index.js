@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var madtownBlog = require('../Queries/madtown_blog.js');
+var calendar = require('../Queries/calendar.js');
 
 var api = {
       index: function (req, res, next) {
@@ -15,6 +16,26 @@ var api = {
             });
       },
 
+      calendarCrossFit: function (req, res, next) {
+            res.render('calendar', {
+                  title: 'CrossFit Madtown - Calendar',
+                  subTitle: 'CrossFit',
+                  layout: "layouts/popout.hbs",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
+            });
+      },
+
+      calendarYouth: function (req, res, next) {
+            res.render('calendar', {
+                  title: 'CrossFit Madtown - Calendar',
+                  subTitle: 'CrossFit',
+                  layout: "layouts/popout.hbs",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
+            });
+      },
+
       crossfit: function (req, res, next) {
             res.render('crossfit', {
                   title: 'CrossFit Madtown - CrossFit',
@@ -25,7 +46,8 @@ var api = {
                   img3: "/images/running.jpg",
                   headerImage: "/images/about_image.jpg",
                   testimonials: "testimonials.crossfit",
-                  PROD_MODE: process.env.PROD_MODE
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -35,7 +57,8 @@ var api = {
                   subTitle: 'Olympic Weightlifting',
                   layout: "layouts/sub.main.hbs",
                   testimonials: "testimonials.olympiclifting",
-                  PROD_MODE: process.env.PROD_MODE
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -102,7 +125,8 @@ var api = {
                   title: 'CrossFit Madtown - Hot Mammas',
                   subTitle: 'Hot Mammas',
                   layout: "layouts/sub.main.hbs",
-                  PROD_MODE: process.env.PROD_MODE
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -164,6 +188,9 @@ router.get('/', api.index);
 
 //Get CrossFit page
 router.get('/crossfit', api.crossfit);
+
+//Get CrossFit page
+router.get('/calendar', api.calendarCrossFit);
 
 //Get Olympic Weightlifting page
 router.get('/olympic-lifting', api.olympiclifting);
