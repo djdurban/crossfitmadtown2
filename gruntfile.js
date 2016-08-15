@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                         './public/javascripts/vendor/moment.js',
                         './public/javascripts/vendor/classie.js',
                         './public/javascripts/vendor/fullcalendar.js',
-                        './public/javascripts/**/*.js'
+                        './public/javascripts/*.js'
                     ],
                     dest: './public/prod/scripts.js'
                 }]
