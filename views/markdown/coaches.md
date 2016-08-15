@@ -24,4 +24,14 @@ The University of San Diego where she worked with the nationally ranked baseball
 The University of Wisconsin, Madison where she was part of the 2007 National Championship Indoor Track & Field team. While at UW-Madison, Benzing was in charge of men and women’s cross country, indoor and outdoor track, softball, men’s and women’s soccer, men’s and women’s novice, light weight and open weight crew, the cheer, dance and pep squad and assisted with the Badger football program.
 Currently, Benzing is still a competing athlete. She is nationally ranked Olympic Style weightlifter, highly competitive track/road runner, CrossFit Games competitor and mother of two. She is an avid writer, having her Thesis published in the National Strength and Conditioning Research Journal (Vertical Jump & Plyometrics), The CrossFit Journal and The Rx Review (Speed Development).
 
+
+
+## Theresa (TMac) McCray
+
+*MANAGER / HEAD COACH*
+
+Theresa joined the Madtown Community in 2010 as an athlete and competitor for Crossfit Madtown.  After a short amount of time at Madtown she knew that being a part of the health and fitness industry was her true calling.  Theresa began coaching at Crossfit Madtown in 2012 and attending Globe University to receive her Bachelor’s degree in Health and Fitness Science.  Theresa graduated from the program in 2014 with honors and has been extremely successful in her new career field.  In 2015 she was the head strength and conditioning coach and personal trainer at Studio X Fitness in Portland, Oregon.  In 2016, Theresa returned to her roots and is now the Manager and Head Coach at Crossfit Madtown.  During this journey Theresa not only focused on a career change but also her own personal growth and continues to be an accomplished athlete.  These accomplishments include 2012 Mid American Open gold medalist in Olympic weightlifting in the 69kg weight class, 2013 Pan American Master Olympic Weightlifting silver medalist, Wisconsin Olympic Weightlifting state champion and state record holder in 2012 and 2016 in the 69kg weight class.
+
+Theresa’s credentials include a Bachelor degree in Health and Fitness Science from Globe University, American College of Sports Medicine Certified Personal Trainer, USAW Level One Sports Performance Coach Certified, and Muscle Activation Technique Jumpstart Certified.
+
 ~~~
