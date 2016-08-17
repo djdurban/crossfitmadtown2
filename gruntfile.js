@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 },
                 files: {
                     './public/prod/style.css': './public/stylesheets/style.less',
-                    './public/prod/popoutstyle.css': './public/stylesheets/popoutstyle.less'
+                    './public/prod/popout.css': './public/stylesheets/popout.less'
                 }
             }
         },
