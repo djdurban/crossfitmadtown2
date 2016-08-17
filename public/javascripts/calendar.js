@@ -23,7 +23,7 @@ window.calendar = function () {
         ev.stopPropagation();
         ev.preventDefault();
 
-        window.open('/calendar', 'Calendar', 'width=800,height=700,menubar=0');
+        window.open('/calendar', 'Calendar', 'width=800,height=800,menubar=0');
     })
 };
 

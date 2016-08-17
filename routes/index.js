@@ -62,10 +62,10 @@ var api = {
             });
       },
 
-      summercamp2016: function (req, res, next) {
-            res.render('summercamp-2016', {
-                  title: 'CrossFit Madtown - Summer Camp 2016',
-                  subTitle: 'Summer Camp 2016',
+      youthfall2016: function (req, res, next) {
+            res.render('apschedule', {
+                  title: 'CrossFit Madtown - Athletic Performance Fall 2016',
+                  subTitle: 'Athletic Performance 2016',
                   layout: "layouts/sub.main.hbs",
                   testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
@@ -205,7 +205,7 @@ router.get('/high-school-athletic-performance-training', api.traininghs);
 router.get('/sport-specific-athletic-performance-training', api.trainingsport);
 
 //Get CrossFit page
-router.get('/summercamp-2016', api.summercamp2016);
+router.get('/youthfall2016', api.youthfall2016);
 
 //Get CrossFit page
 router.get('/athletic-performance', api.athleticperformance);
