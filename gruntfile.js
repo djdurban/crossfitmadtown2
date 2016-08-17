@@ -8,7 +8,8 @@ module.exports = function(grunt) {
                     compress:true
                 },
                 files: {
-                    './public/prod/style.css': './public/stylesheets/style.less'
+                    './public/prod/style.css': './public/stylesheets/style.less',
+                    './public/prod/popout.css': './public/stylesheets/popout.less'
                 }
             },
             production: {
