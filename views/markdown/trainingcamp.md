@@ -1,7 +1,7 @@
 ~~~ {.layout-section.layout-section-white}
 # {{subTitle}}
 
-Our Athletic Performance Training for youth is geared towards children Ages 8-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
+Our Athletic Performance Training for youth is geared towards children Ages 3-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
 
 <img src="/images/youth_front.jpg" style="width:80%;margin-left:auto;margin-right:auto;/>
 
@@ -12,13 +12,21 @@ Our Athletic Performance Training for youth is geared towards children Ages 8-18
 ~~~ {.layout-section.layout-section-white}
 
 
-## Summer Camp 2016
+## Athletic Performance Fall 2016
 
 *Signups have already begun, sign up before its too late!*
 
-<a href="/summercamp-2016" class="btn btn-primary">Summer Camp Schedule & Costs</a>
+<a href="/youthfall2016" class="btn btn-primary">Fall Schedule & Costs</a>
 
-### Youth Camps
+### Youth
+
+*Tiny Tikes (Ages 3-5)*
+
+This developmental training class is designed to encourage the growth of your child's gross motor skills. Training class curriculum covers: hopping, skipping, galloping, jumping (vertical & broad), balance (forward & backwards), crawling, climbing, basic gymnastics tumbling skills, throwing, catching and kicking. Parents are asked to stay throughout the training class to observe, help with any behavioral issues and to assist if your child needs to use the restroom. Most kiddos are not 100% potty trained yet & so your assistance is appreciated.
+
+*Mighty Mites (Ages 6-7)*
+
+Class curriculum covers a more advanced version of MadTown's Tiny Tikes training class in addition to strength, agility, speed development (body mechanics), flexibility & much more! Whether your young child wants to be a future Olympian or if you just want them to stay active & learn to live a heathy lifestyle this class will encourage a stable & solid foundation in their motor /athletic development. This class will also inspire your child to always put forth their best effort, build confidence and self-esteem all in a fun & positive environment. Here at MadTown our goal is not only to develop great athletes, but to develop great people as well!
 
 *Youth Development (Ages 8-12)*
 
@@ -32,7 +40,7 @@ This training program was created for our advanced/elite youth athletes. We cove
 *Must be cleared by Skipp or Keysha.*
 
 
-### High School Camps
+### High School
 
 *Intro to Strength and Power Training*
 
@@ -47,51 +55,15 @@ This is the training program/group we want all of our athletes striving to reach
 
 
 
-### Conditioning Training Camps
+### Conditioning
 
 *Speed Development*
 
 Speed is one of the most valuable traits that an athlete can obtain. This class is taught by former division one track & field athlete/elite runner, Keysha Benzing. Her Speed Development training done in a unique way following the philosophy of Run Smarter, Not Harder. Athletes are made faster and more efficient by being taught proper running mechanics, the different phases in running/sprinting (i.e.: acceleration, drive phase, max speed), proper force application/production, start technique, running posture and what it means to compete. This undulating program uses various state of the art training techniques and tools. Training can be joined at any time allowed by the extensive progressions and is open to all athletes ages 13 and up of all ability levels from novice to elite. Benzing also has the belief that yet there are those who are natural runners, it is a skill and EVERYONE can be taught to be a more efficient, effective, faster, more explosive sprinter/runner.
 
 
-*Advanced Speed Development**
-
-Speed is one of the most valuable traits that an athlete can obtain. This class is taught by former division one track & field athlete/elite runner, Keysha Benzing. Her Speed Development training done in a unique way following the philosophy of Run Smarter, Not Harder. Athletes are made faster and more efficient by being taught proper running mechanics, the different phases in running/sprinting (i.e.: acceleration, drive phase, max speed), proper force application/production, start technique, running posture and what it means to compete. This undulating program uses various state of the art training techniques and tools. Training can be joined at any time allowed by the extensive progressions and is open to all athletes ages 13 and up of all ability levels from novice to elite. Benzing also has the belief that yet there are those who are natural runners, it is a skill and EVERYONE can be taught to be a more efficient, effective, faster, more explosive sprinter/runner.
-
-*Must be cleared by Skipp or Keysha.*
-
-
-*PAACT*
+*PACCT*
 
 Great conditioning class for all athletes. This fun class, is a mix of various training that never gets boring. Athletes are coached through various styles of jump training, multi directional speed, agilities, various core exercises and much more. Athletes will get in great shape
 
-
-*Advanced PAACT**
-
-Great conditioning class for all athletes. This fun class, is a mix of various training that never gets boring. Athletes are coached through various styles of jump training, multi directional speed, agilities, various core exercises and much more. Athletes will get in great shape
-
-* Must be cleared by Skipp or Keysha.*
-
-
-### Sport Specific Strength and Conditioning Camps
-
-*Volleyball*
-
-CrossFit Madtown is proud to bring back this sports specific training for volleyball athletes after much success from last year\'s program. This Volleyball Skill/Strength & Conditioning Camp is designed to get your skills sharpened and body ready for volleyball tryouts/season. Class instructed by former volleyball players & current MadTown athletes Carly DuCharme & Bailey Nye. Skills that are emphasized are: passing, setting, hitting as well as spike approaches. The Strength & Conditioning training is instructed by Keysha Benzing, former strength & conditioning coach of the nationally ranked University of San Diego volleyball team & Madison\'s Capitol Volleyball Academy. This portion of training focuses on speed, agility, quickness, plyometric (aka \"Jump Training\"), flexibility, ACL injury prevention, shoulder pre-hab and much more!
-
-
-*Football*
-
-This is a comprehensive, football specific training camp that is designed to get you ahead of your teammates/competition as well as to get you prepared for football tryouts and the season. Covers:
-
-- Strength & Power Training
-- Speed, Agility & Quickness Training
-- Football Skill work
-- Video Analysis
-- College Mentoring/Advising
-
-
-*Cross Country*
-
-This new program is instructed by Coach Keysha Benzing who is still a competitive athlete runner. She competed in California as a ranked prep athlete earning honors. She competed on her division 1 college XC team earning team most valuable, serving as team captain, all Big West and several NCAA Championship appearances. Athletes will receive a customized summer running plan as well as strength & conditioning programs. Two days a week will be dedicated to all strength & conditioning aspects of training related to a mid/long distance runner, and two days dedicated to speed work/interval/technique training. Other topics covered and learned in class: nutrition, pre/post-race meal, sport psych and college mentoring.
 ~~~

@@ -6,15 +6,15 @@
     {{> styles}}
   </head>
   <body class="main-layout">
-    <div id="site-wrapper">
+    <div id="site-wrapper" class="transition-element">
     {{> header}}
 
-        <div id="site-canvas">
+        <div id="site-canvas" class="transition-element">
             {{{body}}}
 
             {{> footer}}
         </div>
-    {{> scripts}}
     </div>
+    {{> scripts}}
   </body>
 </html>

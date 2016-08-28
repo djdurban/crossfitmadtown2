@@ -20,7 +20,7 @@ Monday/Wednesday: 6pm
 
 Tuesday/Thursday: 4pm
 
-*Also have access to Speed Development and PAACT
+*Also have access to Speed Development and PACCT
 
 
 ### High School Camps
@@ -50,11 +50,11 @@ Monday/Wednesday: 5pm
 
 Monday/Wednesday/Friday: 11am
 
-*PAACT*
+*PACCT*
 
 Tuesday/Thursday: 6pm
 
-*Advanced PAACT**
+*Advanced PACCT**
 
 Tuesday/Thursday: 11am
 
@@ -94,19 +94,11 @@ July 18 - August 19th (5 wks)
 
 ~~~
 ~~~ {.layout-section.layout-section-green}
-### Packages and Cost
+# Packages and Cost
 
 #### *Bronze Package*
 
 2 Sessions per Week
-
-*Early Bird #1 Deadline: April 25th*
-
-Session 1: $210
-
-Session 2: $210
-
-Both Sessions: $350
 
 *Regular Summer Camp Sign Ups: After April 30th*
 
@@ -122,14 +114,6 @@ Both Sessions: $470
 
 3 Training Sessions per Week
 
-*Early Bird #1 Deadline: April 25th*
-
-Session 1: $245
-
-Session 2: $245
-
-Both Sessions: $415
-
 *Regular Summer Camp Sign Ups: After April 30th*
 
 Session 1: $325
@@ -143,14 +127,6 @@ Both Sessions: $550
 #### *Gold Package*
 
 Unlimited Sessions per Week
-
-*Early Bird #1 Deadline: April 25th*
-
-Session 1: $300
-
-Session 2: $300
-
-Both Sessions: $500
 
 *Regular Summer Camp Sign Ups: After April 30th*
 

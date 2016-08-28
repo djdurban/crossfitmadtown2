@@ -8,6 +8,8 @@ var hbs = require('hbs');
 var lessCompiler = require('less-middleware');
 var rho = require('rho');
 var fs = require('fs');
+var request = require('request');
+var compression = require('compression');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -64,12 +66,21 @@ hbs.registerHelper('markdown', function(fileName) {
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(compression());
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(lessCompiler(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
+
+
+app.use(function (req, res, next) {
+      res.setHeader("Cache-Control", "public, max-age=1209600");
+      res.setHeader("Expires", new Date(Date.now() + 1209600000).toUTCString());
+  next();
+});
+
 
 app.use('/', routes);
 
@@ -81,6 +92,8 @@ app.use(function(req, res, next) {
     next();
   }
 });
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -112,6 +125,11 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+
+
+//disable cookies
+request.defaults({"jar":false});
 
 
 module.exports = app;

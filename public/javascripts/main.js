@@ -26,6 +26,16 @@ $(document).ready(function () {
     var btnMenuClose = $('#menu-close');
 
     window.carousel('.carousel');
+    window.calendar();
+
+    var timeout = 10;
+    _.each($('.transition-element'), function (el) {
+        timeout += 100;
+        setTimeout(function () {
+            $(el).addClass('transition-element-visible');
+        },timeout);
+    });
+
 
     btnLiveStream.on('click', function (ev) {
         if (current < start) {

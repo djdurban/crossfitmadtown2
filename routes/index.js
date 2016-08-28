@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var madtownBlog = require('../Queries/madtown_blog.js');
+var calendar = require('../Queries/calendar.js');
 
 var api = {
       index: function (req, res, next) {
@@ -10,7 +11,28 @@ var api = {
                   weightliftingFront: "/images/weightlifting_front.jpg",
                   youthFront: "/images/youth_front.jpg",
                   backgroundImage: "/images/header/slider4.jpg",
+                  testimonials: "testimonials.main",
                   PROD_MODE: process.env.PROD_MODE
+            });
+      },
+
+      calendarCrossFit: function (req, res, next) {
+            res.render('calendar', {
+                  title: 'CrossFit Madtown - Calendar',
+                  subTitle: 'CrossFit',
+                  layout: "layouts/popout.hbs",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
+            });
+      },
+
+      calendarYouth: function (req, res, next) {
+            res.render('calendar', {
+                  title: 'CrossFit Madtown - Calendar',
+                  subTitle: 'CrossFit',
+                  layout: "layouts/popout.hbs",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -23,7 +45,9 @@ var api = {
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
                   headerImage: "/images/about_image.jpg",
-                  PROD_MODE: process.env.PROD_MODE
+                  testimonials: "testimonials.crossfit",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -32,15 +56,18 @@ var api = {
                   title: 'CrossFit Madtown - Olympic Weightlifting',
                   subTitle: 'Olympic Weightlifting',
                   layout: "layouts/sub.main.hbs",
-                  PROD_MODE: process.env.PROD_MODE
+                  testimonials: "testimonials.olympiclifting",
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
-      summercamp2016: function (req, res, next) {
-            res.render('summercamp-2016', {
-                  title: 'CrossFit Madtown - Summer Camp 2016',
-                  subTitle: 'Summer Camp 2016',
+      youthfall2016: function (req, res, next) {
+            res.render('apschedule', {
+                  title: 'CrossFit Madtown - Athletic Performance Fall 2016',
+                  subTitle: 'Athletic Performance 2016',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -50,6 +77,7 @@ var api = {
                   title: 'CrossFit Madtown - Youth Athletic Performance Training',
                   subTitle: 'Youth Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -63,6 +91,7 @@ var api = {
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
                   headerImage: "/images/about_image.jpg",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -75,6 +104,7 @@ var api = {
                   img1: "/images/abby_rings.jpg",
                   img2: "/images/handstand.jpg",
                   img3: "/images/running.jpg",
+                  testimonials: "testimonials.athleticperformance",
                   headerImage: "/images/about_image.jpg",
                   PROD_MODE: process.env.PROD_MODE
             });
@@ -85,6 +115,7 @@ var api = {
                   title: 'CrossFit Madtown - Athletic Performance Training',
                   subTitle: 'Athletic Performance Training',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.athleticperformance",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -94,7 +125,8 @@ var api = {
                   title: 'CrossFit Madtown - Hot Mammas',
                   subTitle: 'Hot Mammas',
                   layout: "layouts/sub.main.hbs",
-                  PROD_MODE: process.env.PROD_MODE
+                  PROD_MODE: process.env.PROD_MODE,
+                  eventData:JSON.stringify(calendar.getItems())
             });
       },
 
@@ -103,6 +135,21 @@ var api = {
                   title: 'CrossFit Madtown - Coaches',
                   subTitle: 'Coaches',
                   layout: "layouts/sub.main.hbs",
+                  testimonials: "testimonials.hotmammas",
+                  PROD_MODE: process.env.PROD_MODE
+            });
+      },
+
+      registration: function (req, res, next) {
+            res.render('registration', {
+                  title: 'CrossFit Madtown - Membership Registration',
+                  subTitle: 'Membership Registration',
+                  layout: "layouts/sub.main.hbs",
+                  img1: "/images/abby_rings.jpg",
+                  img2: "/images/handstand.jpg",
+                  img3: "/images/running.jpg",
+                  headerImage: "/images/about_image.jpg",
+                  testimonials: "testimonials.crossfit",
                   PROD_MODE: process.env.PROD_MODE
             });
       },
@@ -142,6 +189,9 @@ router.get('/', api.index);
 //Get CrossFit page
 router.get('/crossfit', api.crossfit);
 
+//Get CrossFit page
+router.get('/calendar', api.calendarCrossFit);
+
 //Get Olympic Weightlifting page
 router.get('/olympic-lifting', api.olympiclifting);
 
@@ -155,7 +205,7 @@ router.get('/high-school-athletic-performance-training', api.traininghs);
 router.get('/sport-specific-athletic-performance-training', api.trainingsport);
 
 //Get CrossFit page
-router.get('/summercamp-2016', api.summercamp2016);
+router.get('/youthfall2016', api.youthfall2016);
 
 //Get CrossFit page
 router.get('/athletic-performance', api.athleticperformance);
@@ -165,6 +215,9 @@ router.get('/hot-mammas', api.hotmammas);
 
 //Get Coaches page
 router.get('/coaches', api.coaches);
+
+//Get Registration page
+router.get('/register', api.registration);
 
 //Get WOD page
 router.get('/wod/:subtype/:date', api.wod);
