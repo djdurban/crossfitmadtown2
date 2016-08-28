@@ -8,13 +8,17 @@ Runs from September 5th - December 2nd (3 months)
 
 ### Youth
 
-*Mighty Mites*
+*Tiny Tikes (Ages 3-5)*
+
+Wednesday: 5:30pm
+
+*Mighty Mites (Ages 6-7)*
 
 Monday/Wednesday: 4:30pm
 
 *Youth Development (Ages 8-12)*
 
-Tuesday/Thursday: 530pm
+Tuesday/Thursday: 5:30pm
 
 *Advanced Youth Development (Ages 10-12)**
 

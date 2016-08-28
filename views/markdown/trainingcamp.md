@@ -1,7 +1,7 @@
 ~~~ {.layout-section.layout-section-white}
 # {{subTitle}}
 
-Our Athletic Performance Training for youth is geared towards children Ages 8-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
+Our Athletic Performance Training for youth is geared towards children Ages 3-18. Whether the kids are serious about playing a sport, or just testing out their athleticism, there is a class for everyone!
 
 <img src="/images/youth_front.jpg" style="width:80%;margin-left:auto;margin-right:auto;/>
 
@@ -19,6 +19,14 @@ Our Athletic Performance Training for youth is geared towards children Ages 8-18
 <a href="/youthfall2016" class="btn btn-primary">Fall Schedule & Costs</a>
 
 ### Youth
+
+*Tiny Tikes (Ages 3-5)*
+
+This developmental training class is designed to encourage the growth of your child's gross motor skills. Training class curriculum covers: hopping, skipping, galloping, jumping (vertical & broad), balance (forward & backwards), crawling, climbing, basic gymnastics tumbling skills, throwing, catching and kicking. Parents are asked to stay throughout the training class to observe, help with any behavioral issues and to assist if your child needs to use the restroom. Most kiddos are not 100% potty trained yet & so your assistance is appreciated.
+
+*Mighty Mites (Ages 6-7)*
+
+Class curriculum covers a more advanced version of MadTown's Tiny Tikes training class in addition to strength, agility, speed development (body mechanics), flexibility & much more! Whether your young child wants to be a future Olympian or if you just want them to stay active & learn to live a heathy lifestyle this class will encourage a stable & solid foundation in their motor /athletic development. This class will also inspire your child to always put forth their best effort, build confidence and self-esteem all in a fun & positive environment. Here at MadTown our goal is not only to develop great athletes, but to develop great people as well!
 
 *Youth Development (Ages 8-12)*
 
