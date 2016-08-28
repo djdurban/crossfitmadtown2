@@ -26,7 +26,7 @@ This developmental training class is designed to encourage the growth of your ch
 
 *Mighty Mites (Ages 6-7)*
 
-Class curriculum covers a more advanced version of MadTown's Tiny Tikes training class in addition to strength, agility, speed development (body mechanics), flexibility & much more! Whether your young child wants to be a future Olympian or if you just want them to stay active & learn to live a heathy lifestyle this class will encourage a stable & solid foundation in their motor /athletic development. This class will also inspire your child to always put forth their best effort, build confidence and self-esteem all in a fun & positive environment. Here at MadTown our goal is not only to develop great athletes, but to develop great people as well!
+Class curriculum covers a more advanced version of MadTown's Tiny Tikes training class in addition to strength, agility, speed development (body mechanics), flexibility & much more! Whether your young child wants to be a future Olympian or if you just want them to stay active & learn to live a heathy lifestyle this class will encourage a stable & solid foundation in their motor /athletic development. This class will also inspire your child to always put forth their best effort, build confidence and self-esteem all in a fun & positive environment. Here at Madtown our goal is not only to develop great athletes, but to develop great people as well!
 
 *Youth Development (Ages 8-12)*
 
