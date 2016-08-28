@@ -66,6 +66,8 @@ Tuesday/Thursday: 6:30pm
 
 Register by September 4th and pay in full for 3 months and train for your 4th month for free (through December 2016)
 
+1 session per week: $80/mo recurring
+
 2 session per week: $120/mo recurring
 
 3 sessions per week: $150/mo recurring
